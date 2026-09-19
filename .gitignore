@@ -5,3 +5,7 @@ node_modules/
 .env
 .env.*
 !.env.example
+
+# Guias pessoais mantidos somente no computador
+/GUIA_CRIACAO_REPOSITORIO.md
+/INICIANTE_GUIA_EXTENSAO.md

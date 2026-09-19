@@ -41,8 +41,6 @@ Este repositório busca:
 ```text
 SHIELD_EXTENSION/
 ├── README.md
-├── GUIA_CRIACAO_REPOSITORIO.md
-├── INICIANTE_GUIA_EXTENSAO.md
 ├── docs/
 │   ├── analise-estatica.md
 │   ├── analise-dinamica.md
@@ -68,8 +66,9 @@ SHIELD_EXTENSION/
 
 ## 📚 Documentação
 
-- [GUIA_CRIACAO_REPOSITORIO.md](GUIA_CRIACAO_REPOSITORIO.md)
-- [INICIANTE_GUIA_EXTENSAO.md](INICIANTE_GUIA_EXTENSAO.md)
+- [Análise estática](docs/analise-estatica.md)
+- [Análise dinâmica](docs/analise-dinamica.md)
+- [Checklist de segurança](docs/checklist-seguranca.md)
 
 ## 🚨 Importante
 
@@ -89,7 +88,7 @@ Projeto em desenvolvimento, com foco em organização, documentação e análise
 
 Abra a pasta `SHIELD_EXTENSION` no VS Code. Os caminhos do projeto são relativos à raiz e não dependem do Codespaces. No momento, o repositório contém guias e modelos de análise; ainda não há uma extensão executável, dependências para instalar ou testes automatizados.
 
-Coloque o código a analisar em `src/codigo-analisado/`. A configuração de depuração fica vazia até existir um programa com ponto de entrada definido. Extensões de navegador devem ser inspecionadas no navegador, conforme o [guia de iniciação](INICIANTE_GUIA_EXTENSAO.md).
+Coloque o código a analisar em `src/codigo-analisado/`. A configuração de depuração fica vazia até existir um programa com ponto de entrada definido. Extensões de navegador devem ser inspecionadas no navegador. Os guias pessoais de criação do repositório e de iniciação ficam apenas no computador e são ignorados pelo Git.
 
 ### Enviar alterações locais para o GitHub
 
