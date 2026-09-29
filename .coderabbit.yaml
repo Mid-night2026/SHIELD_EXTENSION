@@ -12,8 +12,5 @@ reviews:
   path_instructions:
     - path: "**/*"
       instructions: "Atue como um especialista em Cibersegurança. Audite o código em busca de vulnerabilidades, falhas do OWASP, chaves vazadas ou permissões excessivas."
-  tools:
-    github_checks:
-      enabled: true
 chat:
   auto_reply: true
