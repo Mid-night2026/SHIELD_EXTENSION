@@ -1,13 +1,17 @@
-# CodeRabbit Configuration
+# yaml-language-server: $schema=https://coderabbit.ai/integrations/schema.v2.json
 language: "pt-BR"
-early_access: false
+early_access: true
+inheritance: true
 reviews:
-  profile: "cybersecurity"
+  profile: "assertive"
   request_changes_workflow: false
   high_level_summary: true
   auto_review:
     enabled: true
     drafts: false
+  path_instructions:
+    - path: "**/*"
+      instructions: "Atue como um especialista em Cibersegurança. Audite o código em busca de vulnerabilidades, falhas do OWASP, chaves vazadas ou permissões excessivas."
   tools:
     github_checks:
       enabled: true
