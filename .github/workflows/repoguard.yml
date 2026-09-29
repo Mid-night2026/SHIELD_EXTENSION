@@ -10,5 +10,3 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: Darklca2026/repoguard-ai@main
-        with:
-          format: 'sarif'
