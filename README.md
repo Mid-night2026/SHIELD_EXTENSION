@@ -104,3 +104,4 @@ git push origin HEAD:refs/heads/main
 ```
 
 Esse fluxo publica os arquivos locais. No VS Code, use **Push / Enviar**; **Sincronizar alterações** também pode trazer alterações do remoto. Se o push for rejeitado por divergência, preserve o trabalho local em um commit e examine o histórico remoto antes de decidir como reconciliar. Não use `git reset --hard` nem `git push --force` como rotina.
+
